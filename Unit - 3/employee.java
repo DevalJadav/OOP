@@ -22,5 +22,9 @@ class employee {
         emp e1=new emp();
         e1.getData(10 , "Harsh", "Ahmedabad");
         e1.display();
+
+        emp e2=new emp();
+        e2.getData(15 , "John", "Vadodara");
+        e2.display();
     }
 }

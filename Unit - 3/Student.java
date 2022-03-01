@@ -1,6 +1,11 @@
 class Data {
     String name;
-    int roll_no; 
+    int roll_no;
+
+    public void display() {
+        System.out.println("Name = " +s1.name);
+        System.out.println("Roll No = " +s1.roll_no);
+        }
 }
 
 class Student {
@@ -8,7 +13,6 @@ class Student {
         Data s1=new Data();
         s1.name = "John";
         s1.roll_no = 2;
-        System.out.println("Name = " +s1.name);
-        System.out.println("Roll No. = " +s1.roll_no);
+        s1.display();
     }    
 }
