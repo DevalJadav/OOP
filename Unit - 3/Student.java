@@ -15,4 +15,8 @@ class Student {
         s1.roll_no = 2;
         s1.display();
     }
+<<<<<<< HEAD
 }   
+=======
+}
+>>>>>>> cf4b0d0832209ddc5f58ef55ba3284a53abf7c01
