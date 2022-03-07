@@ -1,4 +1,4 @@
-class rectangle {
+class rectangle2 {
     float lenght, width;    
 }
 
